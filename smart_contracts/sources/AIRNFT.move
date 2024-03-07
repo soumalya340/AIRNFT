@@ -1,4 +1,4 @@
-module addrx::cool_kitchen {
+module addrx::airnft {
     use aptos_framework::object::{Self,Object,ExtendRef};
     use aptos_token_objects::aptos_token::{Self, AptosToken};
     use std::string;
