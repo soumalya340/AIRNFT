@@ -53,6 +53,7 @@ module addrx::airnft {
     // ==============================================================================================
     #[event]
     struct CreateNewTokenEvent has store, drop {
+        token_id: u64,
         name: String,
         url: String,
         child_attribute: u64,
@@ -150,6 +151,7 @@ module addrx::airnft {
         simple_map::add(&mut token_list,count,obj_addr);
 
         let event = CreateNewTokenEvent {
+            token_id: count,
             name: token_name,
             url: token_uri,
             child_attribute: child_val,
@@ -332,5 +334,10 @@ module addrx::airnft {
         let obj_ref = object::address_to_object(token);
         obj_ref
     }
+
+
+     //==============================================================================================
+    // Test functions
+    //==============================================================================================
 
 }
