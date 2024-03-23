@@ -1,0 +1,17 @@
+.connect-wallet-button-container button {
+    border: none !important;
+    box-shadow: 2px 2px 4px rgb(135, 134, 134);
+    
+  }
+  
+  .connect-wallet-button-container button:hover {
+    background-color: rgb(51, 51, 246) !important;
+    color: white !important;
+  }
+  
+  @media only screen and (max-width: 440px) {
+    .connect-wallet-button-container {
+      margin-left: 50px;
+      padding: 2px;
+    }
+  }

@@ -1,0 +1,15 @@
+#wheelCircle {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#canvas {
+  height: 25rem;
+}
+
+#wheelCircle~h5{
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+}

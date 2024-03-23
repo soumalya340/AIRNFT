@@ -1,12 +1,11 @@
-import React from "react";
-import Navbar from "../../components/navbar/Navbar";
 import HomePage from "../../components/home/Home";
 import "./homepage.css";
+import Nav from "../../components/navbar/Navbar";
 
 const Homepage = () => {
   return (
     <div className="homepage">
-      <Navbar />
+      <Nav />
       <HomePage />
     </div>
   );

@@ -5,16 +5,16 @@ upgrade_policy = "compatible"
 
 [dependencies.AptosFramework]
 git = 'https://github.com/aptos-labs/aptos-core.git'
-rev = 'devnet'
+rev = 'main'
 subdir = 'aptos-move/framework/aptos-framework'
 
 [dependencies.AptosTokenObjects]
 git = 'https://github.com/aptos-labs/aptos-core.git' 
-rev = 'devnet'
+rev = 'main'
 subdir = 'aptos-move/framework/aptos-token-objects'
 
 [addresses]
-addrx = "0xdd622dfa54797449afb2a4034695e0e1c29c9d7d3f5a266c9d6fa7e58a856f96"
+addrx = "0x968aee09ea56d79ab2f3675922081d8003acfacf7f90121dbee0aa04a9960fc1"
 std = "0x1"
 aptos_token_objects ="0x4"
 
